@@ -1,4 +1,4 @@
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/car.png";
 import { FaCar } from "react-icons/fa";
 
 const Menu = [
@@ -22,8 +22,8 @@ const Menu = [
 const Navbar = () => {
   return (
     <>
-      <div className="bg-gradient-to-r from-black via-gray-800 to-yellow-500 shadow-md text-white fixed top-0 w-full z-50">
-        <div className="container py-2">
+      <div className="bg-white shadow-md fixed top-0 w-full z-50 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-yellow-500 hover:via-blue-500 hover:to-red-500">
+        <div className="container py-3">
           <div className="flex justify-between items-center">
             {/* Logo section */}
             <div data-aos="fade-down" data-aos-once="true">
@@ -31,8 +31,7 @@ const Navbar = () => {
                 href="#"
                 className="font-bold text-xl sm:text-2xl flex justify-center items-center gap-2 tracking-wider font-cursive"
               >
-                <img src={Logo} alt="Logo" className="w-12" />
-                Prestige Motors
+                <img src={Logo} alt="Logo" width={80} height={80} />
               </a>
             </div>
 
@@ -48,15 +47,15 @@ const Navbar = () => {
                   <li key={menu.id}>
                     <a
                       href={menu.link}
-                      className="inline-block text-xl py-4 px-4 text-white/80 hover:text-yellow-400 duration-200"
+                      className="inline-block text-xl py-2 px-4 text-black duration-200 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-red-500 hover:via-blue-500 hover:to-yellow-500"
                     >
                       <span className="font-semibold tracking-wide">{menu.name}</span>
                     </a>
                   </li>
                 ))}
               </ul>
-              <a href="/contact">
-                <button className="bg-yellow-500 hover:scale-105 duration-200 text-white px-3 py-1.5 rounded-full flex items-center gap-2">
+              <a href="#contact">
+                <button className="bg-gradient-to-r from-yellow-500 via-blue-500 to-red-500 hover:scale-105 duration-200 text-black px-3 py-1.5 rounded-full flex items-center gap-2">
                   <span className="font-semibold tracking-wide">CONTACT US</span>
                   <FaCar className="text-xl text-white drop-shadow-sm cursor-pointer" />
                 </button>

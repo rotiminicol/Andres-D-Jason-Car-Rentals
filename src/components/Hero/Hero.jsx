@@ -1,42 +1,27 @@
-import HeroPng from "../../assets/logo.png";
+import HeroPng from "../../assets/hero1.png";
 
 const Hero = () => {
   return (
     <>
-      <div className="min-h-[550px] sm:min-h-[600px] bg-black flex justify-center items-center text-white">
-        <div className="container pb-8 sm:pb-0">
-          <div className="grid grid-cols-1 sm:grid-cols-2">
-            {/* text content section */}
-            <div className="flex flex-col justify-center gap-6 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1">
+      <div className="min-h-[550px] sm:min-h-[600px] bg-white flex justify-center items-center text-black shadow-lg rounded-lg">
+        <div className="container pb-8 sm:pb-0 shadow-md rounded-lg">
+          <div className="grid grid-cols-1 sm:grid-cols-2 items-center">
+            <div className="flex flex-col justify-center gap-6 pt-12 sm:pt-0 text-center order-2 sm:order-1">
               <h1
                 data-aos="fade-up"
                 data-aos-once="true"
-                className="text-5xl sm:text-6xl lg:text-7xl font-bold font-serif"
+                className="text-3xl sm:text-4xl lg:text-5xl font-bold font-sans"
               >
-                We offer the most{" "}
-                <span
-                  data-aos="zoom-out"
-                  data-aos-delay="300"
-                  className="bg-clip-text text-transparent bg-gradient-to-b bg-yellow-500 font-cursive"
-                >
-                  Luxurious Cars
-                </span>{" "}
-                in the city at{" "}
-                <span
-                  data-aos="zoom-out"
-                  data-aos-delay="300"
-                  className="bg-clip-text text-transparent bg-gradient-to-b bg-yellow-500 font-cursive"
-                >
-                  Affordable Prices
-                </span>
+                Andres D Jason Car Rentals
               </h1>
-              <div data-aos="fade-up" data-aos-delay="400">
-                <button className="bg-gradient-to-r bg-yellow-500 hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
-                  Drive Your Dream
-                </button>
-              </div>
+              <p
+                data-aos="zoom-out"
+                data-aos-delay="400"
+                className="text-xl sm:text-2xl lg:text-3xl font-light text-center"
+              >
+                Best Car Service in Paphos
+              </p>
             </div>
-            {/* Image section */}
             <div
               data-aos="zoom-in"
               data-aos-duration="300"
@@ -45,22 +30,9 @@ const Hero = () => {
               <img
                 data-aos-once="true"
                 src={HeroPng}
-                alt="luxury car"
-                className="w-[300px] sm:w-[450px] sm:scale-125 mx-auto spin"
+                alt="rental car"
+                className="w-full sm:w-[500px] lg:w-[600px] mx-auto animate-pulse"
               />
-              <div
-                data-aos="fade-left"
-                className="bg-gradient-to-r bg-yellow-500 p-3 rounded-xl absolute top-10 left-10"
-              >
-                <h1 className="text-white">HEY PAPHOS</h1>
-              </div>
-              <div
-                data-aos="fade-right"
-                data-aos-offset="0"
-                className="bg-gradient-to-r bg-yellow-500 p-3 rounded-xl absolute bottom-10 right-10"
-              >
-                <h1 className="text-white"> LUXURY CARS</h1>
-              </div>
             </div>
           </div>
         </div>

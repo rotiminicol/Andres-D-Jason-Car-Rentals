@@ -13,21 +13,7 @@ import Img12 from "../../assets/img12.png";
 import Img13 from "../../assets/img13.png";
 import Img14 from "../../assets/img14.png";
 import Img15 from "../../assets/img15.png";
-import Img16 from "../../assets/img15.png";
-import Img17 from "../../assets/img15.png";
-import Img18 from "../../assets/img15.png";
-import Img19 from "../../assets/img15.png";
-import Img20 from "../../assets/img15.png";
-import Img21 from "../../assets/img15.png";
-import Img22 from "../../assets/img15.png";
-import Img23 from "../../assets/img15.png";
-import Img24 from "../../assets/img15.png";
-import Img25 from "../../assets/img15.png";
-import Img26 from "../../assets/img15.png";
-import Img27 from "../../assets/img15.png";
-import Img28 from "../../assets/img15.png";
-import Img29 from "../../assets/img15.png";
-import Img30 from "../../assets/img15.png";
+
 
 
 
@@ -197,171 +183,6 @@ const ServicesData = [
       "A high-performance sports car with a muscular design and powerful engine options.",
     aosDelay: "300",
   },
-  {
-    id: 16,
-    img: Img16,
-    brand: "BMW",
-    model: "3 Series",
-    year: 2022,
-    price: "$45,000",
-    description:
-      "A luxury sedan offering a perfect blend of comfort, technology, and performance.",
-    aosDelay: "500",
-  },
-  {
-    id: 17,
-    img: Img17,
-    brand: "Mercedes-Benz",
-    model: "C-Class",
-    year: 2023,
-    price: "$50,000",
-    description:
-      "A premium sedan with a stylish design, luxurious interiors, and advanced features.",
-    aosDelay: "100",
-  },
-  {
-    id: 18,
-    img: Img18,
-    brand: "Audi",
-    model: "A4",
-    year: 2022,
-    price: "$43,000",
-    description:
-      "A sophisticated and elegant luxury sedan with cutting-edge technology.",
-    aosDelay: "300",
-  },
-  {
-    id: 19,
-    img: Img19,
-    brand: "Jeep",
-    model: "Wrangler",
-    year: 2021,
-    price: "$35,000",
-    description:
-      "A rugged SUV built for off-road adventures and unmatched durability.",
-    aosDelay: "500",
-  },
-  {
-    id: 20,
-    img: Img20,
-    brand: "Hyundai",
-    model: "Elantra",
-    year: 2023,
-    price: "$20,000",
-    description:
-      "A compact sedan that combines affordability with advanced features and a sleek design.",
-    aosDelay: "100",
-  },
-  {
-    id: 21,
-    img: Img21,
-    brand: "Toyota",
-    model: "Corolla",
-    year: 2022,
-    price: "$20,000",
-    description:
-      "A reliable and fuel-efficient compact sedan with modern features.",
-    aosDelay: "100",
-  },
-  {
-    id: 22,
-    img: Img22,
-    brand: "Honda",
-    model: "Civic",
-    year: 2023,
-    price: "$22,000",
-    description:
-      "A sporty and stylish sedan with advanced safety features and great performance.",
-    aosDelay: "300",
-  },
-  {
-    id: 23,
-    img: Img23,
-    brand: "Ford",
-    model: "Mustang",
-    year: 2021,
-    price: "$35,000",
-    description:
-      "An iconic sports car offering thrilling performance and head-turning design.",
-    aosDelay: "500",
-  },
-  {
-    id: 24,
-    img: Img24,
-    brand: "Tesla",
-    model: "Model 3",
-    year: 2023,
-    price: "$40,000",
-    description:
-      "An electric car that combines efficiency, innovation, and state-of-the-art technology.",
-    aosDelay: "100",
-  },
-  {
-    id: 25,
-    img: Img25,
-    brand: "Chevrolet",
-    model: "Camaro",
-    year: 2020,
-    price: "$30,000",
-    description:
-      "A high-performance sports car with a muscular design and powerful engine options.",
-    aosDelay: "300",
-  },
-  {
-    id: 26,
-    img: Img26,
-    brand: "BMW",
-    model: "3 Series",
-    year: 2022,
-    price: "$45,000",
-    description:
-      "A luxury sedan offering a perfect blend of comfort, technology, and performance.",
-    aosDelay: "500",
-  },
-  {
-    id: 27,
-    img: Img27,
-    brand: "Mercedes-Benz",
-    model: "C-Class",
-    year: 2023,
-    price: "$50,000",
-    description:
-      "A premium sedan with a stylish design, luxurious interiors, and advanced features.",
-    aosDelay: "100",
-  },
-  {
-    id: 28,
-    img: Img28,
-    brand: "Audi",
-    model: "A4",
-    year: 2022,
-    price: "$43,000",
-    description:
-      "A sophisticated and elegant luxury sedan with cutting-edge technology.",
-    aosDelay: "300",
-  },
-  {
-    id: 29,
-    img: Img29,
-    brand: "Jeep",
-    model: "Wrangler",
-    year: 2021,
-    price: "$35,000",
-    description:
-      "A rugged SUV built for off-road adventures and unmatched durability.",
-    aosDelay: "500",
-  },
-  {
-    id: 30,
-    img: Img30,
-    brand: "Hyundai",
-    model: "Elantra",
-    year: 2023,
-    price: "$20,000",
-    description:
-      "A compact sedan that combines affordability with advanced features and a sleek design.",
-    aosDelay: "100",
-  },
 ];
 
 
@@ -374,15 +195,15 @@ const Services = () => {
   return (
     <>
       <span id="services"></span>
-      <div className="mt-10 py-10">
+      <div className="mt-10 py-10" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)" }}>
         <div className="container mx-auto px-6 lg:px-20">
           {/* Heading section */}
           <div className="text-center mb-20">
-            <h1 className="text-5xl font-bold font-cursive text-gray-800">
-              Our Premium Car Collection
+            <h1 className="text-5xl font-bold font-serif text-gray-800">
+              Latest Additions
             </h1>
-            <p className="text-lg text-gray-600 mt-4">
-              Explore our handpicked selection of cars that define luxury and performance.
+            <p className="text-lg text-gray-600 mt-4 font-sans">
+              Discover our latest fleet of cars ready for rent. Drive in style and comfort.
             </p>
           </div>
 
@@ -393,7 +214,7 @@ const Services = () => {
                 key={service.id}
                 data-aos="fade-up"
                 data-aos-delay={service.aosDelay}
-                className="rounded-xl bg-white hover:bg-gray-800 hover:text-white shadow-lg transform hover:-translate-y-2 duration-300 group w-full max-w-[400px] overflow-hidden"
+                className="rounded-xl bg-white hover:bg-gray-800 hover:text-white shadow-lg transform hover:-translate-y-2 duration-300 group w-full max-w-[400px] overflow-hidden font-mono"
               >
                 {/* Image Section */}
                 <div className="relative h-[200px] lg:h-[250px] overflow-hidden bg-gray-100">
@@ -405,14 +226,12 @@ const Services = () => {
                 </div>
 
                 {/* Description Section */}
-                <div className="p-6 text-center">
+                <div className="p-6 text-center space-y-3">
                   <h1 className="text-2xl font-bold mb-2">{`${service.brand} ${service.model}`}</h1>
-                  <p className="text-gray-600 group-hover:text-gray-200 text-sm mb-3">
-                    Year: <span className="font-medium">{service.year}</span>
-                  </p>
-                  <p className="text-gray-600 group-hover:text-gray-200 text-sm mb-3">
-                    Price: <span className="font-medium">{service.price}</span>
-                  </p>
+                  <div className="text-gray-600 group-hover:text-gray-200 text-sm">
+                    <p className="font-medium">Year: {service.year}</p>
+                    <p className="font-medium">Price: {service.price}</p>
+                  </div>
                   <p className="text-gray-500 group-hover:text-gray-300 text-sm">
                     {service.description}
                   </p>
@@ -420,8 +239,8 @@ const Services = () => {
 
                 {/* Call to Action */}
                 <div className="bg-gray-800 text-white p-4 mt-2 text-center">
-                  <button className="bg-primary hover:bg-secondary text-white py-2 px-5 rounded-lg font-medium shadow-md transform hover:scale-105 duration-300">
-                    Learn More
+                  <button className="bg-gradient-to-r from-yellow-500 via-blue-500 to-red-500 hover:scale-105 duration-200 text-white py-2 px-5 rounded-lg font-medium shadow-md">
+                    Rent Now
                   </button>
                 </div>
               </div>
@@ -434,6 +253,8 @@ const Services = () => {
 };
 
 export default Services;
+
+
 
 
 

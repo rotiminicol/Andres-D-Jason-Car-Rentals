@@ -1,4 +1,4 @@
-import BannerImg from "../../assets/Banner.png";
+import BannerImg from "../../assets/about.png";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
@@ -17,7 +17,7 @@ const Banner = () => {
     <>
       <span id="about"></span>
       <div style={bgImage} className="mt-16"> {/* Added margin-top class */}
-        <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0 ">
+        <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
           <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Image section */}
@@ -28,34 +28,34 @@ const Banner = () => {
                   className="max-w-[430px] w-full mx-auto drop-shadow-[10px_-10px_12px_rgba(0,0,0,1)]"
                 />
               </div>
-              {/* text content section */}
+              {/* Text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-bold font-cursive"
                 >
-                  Premium Car Services
+                  Premium Car Rentals
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="text-sm text-gray-500 tracking-wide leading-5"
                 >
-                  Discover the exceptional quality and craftsmanship of our latest car arrivals. Each vehicle in our collection offers unparalleled performance, innovative technology, and exquisite design. Join us in exploring the future of driving with our newest models that redefine luxury and efficiency.
+                  Discover the exceptional quality and comfort of our car rental services. Each vehicle in our fleet offers unparalleled performance, reliability, and style. Join us in exploring the best driving experience with our top-tier rentals that redefine luxury and convenience.
                 </p>
 
                 <div className="grid grid-cols-2 gap-6">
                   <div className="space-y-5">
                     <div data-aos="fade-up" className="flex items-center gap-3">
-                      <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
-                      <span>Secure Services</span>
+                      <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100" />
+                      <span>Secure Rentals</span>
                     </div>
                     <div
                       data-aos="fade-up"
                       data-aos-delay="300"
                       className="flex items-center gap-3"
                     >
-                      <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100 " />
-                      <span>Fast Repairs</span>
+                      <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100" />
+                      <span>Fast Bookings</span>
                     </div>
                     <div
                       data-aos="fade-up"
@@ -74,9 +74,7 @@ const Banner = () => {
                       Car Enthusiasts
                     </h1>
                     <p className="text-sm text-gray-500">
-                      Just like tuning a car to perfection, our services are
-                      tailored to meet your exact needs, ensuring a smooth and
-                      enjoyable ride every time.
+                      Just like tuning a car to perfection, our rental services are tailored to meet your exact needs, ensuring a smooth and enjoyable ride every time.
                     </p>
                   </div>
                 </div>
